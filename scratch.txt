@@ -1,0 +1,267 @@
+C:\Users\manee\PycharmProjects\EmoSetProject\.venv\Scripts\python.exe C:\Users\manee\PycharmProjects\EmoSetProject\main.py
+C:\Users\manee\Downloads\EmoSet-118K-7
+Log Num: 1
+Count: 1
+# Amused: 1
+Log Num: 2
+Count: 1001
+# Amused: 162
+Log Num: 3
+Count: 2001
+# Amused: 342
+Log Num: 4
+Count: 3001
+# Amused: 520
+Log Num: 5
+Count: 4001
+# Amused: 665
+Log Num: 6
+Count: 5001
+# Amused: 838
+Count: 5905
+# Amusement: 994
+# Awe: 755
+# Contentment: 817
+# Excitement: 977
+# Anger: 518
+# Disgust: 538
+# Fear: 693
+# Sadness: 613
+
+Process finished with exit code 0
+
+
+Log Num: 95
+Count: 94001
+# Amused: 15598
+Count: 94481
+# Amusement: 15681
+# Awe: 12022
+# Contentment: 13036
+# Excitement: 15837
+# Anger: 8434
+# Disgust: 8467
+# Fear: 10786
+# Sadness: 10218
+
+Process finished with exit code 0
+
+C:\Users\manee\PycharmProjects\EmoSetProject\.venv\Scripts\python.exe C:\Users\manee\PycharmProjects\EmoSetProject\LaVis-classifier.py
+imports complete
+test 1
+C:\Users\manee\PycharmProjects\EmoSetProject\.venv\lib\site-packages\huggingface_hub\file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+test 2 (model loaded)
+['This image contains the emotion of amusement', 'This image contains the emotion of awe', 'This image contains the emotion of contentment', 'This image contains the emotion of excitement', 'This image contains the emotion of anger', 'This image contains the emotion of disgust', 'This image contains the emotion of fear', 'This image contains the emotion of sadness']
+test 3
+Log Num: 1
+Count: 1
+Log Num: 2
+Count: 501
+Log Num: 3
+Count: 1001
+Log Num: 4
+Count: 1501
+Log Num: 5
+Count: 2001
+Log Num: 6
+Count: 2501
+Log Num: 7
+Count: 3001
+Log Num: 8
+Count: 3501
+Log Num: 9
+Count: 4001
+Log Num: 10
+Count: 4501
+Log Num: 11
+Count: 5001
+Log Num: 12
+Count: 5501
+getting final scores
+
+            # Amusement: 994
+            Amusement Detected: 869
+            Amusement Precision: 0.5431530494821634
+            Amusement Recall: 0.383739837398374
+            Amusement F1: 0.4497379704621248
+
+            # Awe: 755
+            Awe Detected: 3826
+            Awe Precision: 0.3329848405645583
+            Awe Recall: 0.9152298850574713
+            Awe F1: 0.48830969720199313
+
+            # Contentment: 817
+            Contentment Detected: 125
+            Contentment Precision: 0.272
+            Contentment Recall: 0.0407673860911271
+            Contentment F1: 0.07090719499478623
+
+            # Excitement: 977
+            Excitement Detected: 408
+            Excitement Precision: 0.5833333333333334
+            Excitement Recall: 0.21715328467153286
+            Excitement F1: 0.3164893617021277
+
+            # Anger: 518
+            Anger Detected: 597
+            Anger Precision: 0.26800670016750416
+            Anger Recall: 0.26755852842809363
+            Anger F1: 0.26778242677824265
+
+            # Disgust: 538
+            Disgust Detected: 697
+            Disgust Precision: 0.26398852223816355
+            Disgust Recall: 0.2920634920634921
+            Disgust F1: 0.2773172569706104
+
+            # Fear: 693
+            Fear Detected: 546
+            Fear Precision: 0.5860805860805861
+            Fear Recall: 0.37514654161781946
+            Fear F1: 0.45746962115796996
+
+            # Sadness: 613
+            Sadness Detected: 220
+            Sadness Precision: 0.38181818181818183
+            Sadness Recall: 0.1282442748091603
+            Sadness F1: 0.192
+
+            # Total: 5905
+            Overall Precision: 0.46162360195492724
+            Overall Recall: 0.3742718900195815
+            Overall F1: 0.36000193275255077
+
+Scores:
+{0: {'TP': 472, 'FP': 397, 'TN': 4514, 'FN': 758, 'precision': 0.5431530494821634, 'recall': 0.383739837398374, 'F1': 0.4497379704621248}, 1: {'TP': 1274, 'FP': 2552, 'TN': 2598, 'FN': 118, 'precision': 0.3329848405645583, 'recall': 0.9152298850574713, 'F1': 0.48830969720199313}, 2: {'TP': 34, 'FP': 91, 'TN': 4997, 'FN': 800, 'precision': 0.272, 'recall': 0.0407673860911271, 'F1': 0.07090719499478623}, 3: {'TP': 238, 'FP': 170, 'TN': 4758, 'FN': 858, 'precision': 0.5833333333333334, 'recall': 0.21715328467153286, 'F1': 0.3164893617021277}, 4: {'TP': 160, 'FP': 437, 'TN': 4950, 'FN': 438, 'precision': 0.26800670016750416, 'recall': 0.26755852842809363, 'F1': 0.26778242677824265}, 5: {'TP': 184, 'FP': 513, 'TN': 4854, 'FN': 446, 'precision': 0.26398852223816355, 'recall': 0.2920634920634921, 'F1': 0.2773172569706104}, 6: {'TP': 320, 'FP': 226, 'TN': 4986, 'FN': 533, 'precision': 0.5860805860805861, 'recall': 0.37514654161781946, 'F1': 0.45746962115796996}, 7: {'TP': 84, 'FP': 136, 'TN': 5156, 'FN': 571, 'precision': 0.38181818181818183, 'recall': 0.1282442748091603, 'F1': 0.192}}
+
+Process finished with exit code 0
+
+_________ALBEF_________
+
+Log Num: 119
+Count: 5901
+getting final scores
+
+            # Amusement: 994
+            Amusement Detected: 4328
+            Amusement Precision: 0.31192236598890943
+            Amusement Recall: 0.8088675853804673
+            Amusement F1: 0.45022511255627806
+
+            # Awe: 755
+            Awe Detected: 218
+            Awe Precision: 0.6697247706422018
+            Awe Recall: 0.17632850241545894
+            Awe F1: 0.27915869980879543
+
+            # Contentment: 817
+            Contentment Detected: 11
+            Contentment Precision: 0.18181818181818182
+            Contentment Recall: 0.0024449877750611247
+            Contentment F1: 0.0048250904704463205
+
+            # Excitement: 977
+            Excitement Detected: 37
+            Excitement Precision: 0.16216216216216217
+            Excitement Recall: 0.006122448979591836
+            Excitement F1: 0.011799410029498525
+
+            # Anger: 518
+            Anger Detected: 93
+            Anger Precision: 0.17204301075268819
+            Anger Recall: 0.030418250950570342
+            Anger F1: 0.05169628432956381
+
+            # Disgust: 538
+            Disgust Detected: 114
+            Disgust Precision: 0.631578947368421
+            Disgust Recall: 0.1254355400696864
+            Disgust F1: 0.20930232558139536
+
+            # Fear: 693
+            Fear Detected: 441
+            Fear Precision: 0.3900226757369615
+            Fear Recall: 0.220795892169448
+            Fear F1: 0.2819672131147541
+
+            # Sadness: 613
+            Sadness Detected: 1764
+            Sadness Precision: 0.24829931972789115
+            Sadness Recall: 0.5264423076923077
+            Sadness F1: 0.33744221879815106
+
+            # Total: 5905
+            Overall Precision: 0.34594642927467717
+            Overall Recall: 0.23710693942907396
+            Overall F1: 0.20330204433611032
+
+Scores:
+{0: {'TP': 1350, 'FP': 2978, 'TN': 1933, 'FN': 319, 'precision': 0.31192236598890943, 'recall': 0.8088675853804673, 'F1': 0.45022511255627806}, 1: {'TP': 146, 'FP': 72, 'TN': 5078, 'FN': 682, 'precision': 0.6697247706422018, 'recall': 0.17632850241545894, 'F1': 0.27915869980879543}, 2: {'TP': 2, 'FP': 9, 'TN': 5079, 'FN': 816, 'precision': 0.18181818181818182, 'recall': 0.0024449877750611247, 'F1': 0.0048250904704463205}, 3: {'TP': 6, 'FP': 31, 'TN': 4897, 'FN': 974, 'precision': 0.16216216216216217, 'recall': 0.006122448979591836, 'F1': 0.011799410029498525}, 4: {'TP': 16, 'FP': 77, 'TN': 5310, 'FN': 510, 'precision': 0.17204301075268819, 'recall': 0.030418250950570342, 'F1': 0.05169628432956381}, 5: {'TP': 72, 'FP': 42, 'TN': 5325, 'FN': 502, 'precision': 0.631578947368421, 'recall': 0.1254355400696864, 'F1': 0.20930232558139536}, 6: {'TP': 172, 'FP': 269, 'TN': 4943, 'FN': 607, 'precision': 0.3900226757369615, 'recall': 0.220795892169448, 'F1': 0.2819672131147541}, 7: {'TP': 438, 'FP': 1326, 'TN': 3966, 'FN': 394, 'precision': 0.24829931972789115, 'recall': 0.5264423076923077, 'F1': 0.33744221879815106}}
+
+Process finished with exit code 0
+
+_______CLIP_______
+
+Log Num: 119
+Count: 5901
+getting final scores
+
+            # Amusement: 994
+            Amusement Detected: 2949
+            Amusement Precision: 0.3811461512377077
+            Amusement Recall: 0.7223650385604113
+            Amusement F1: 0.49900110987791335
+
+            # Awe: 755
+            Awe Detected: 18
+            Awe Precision: 0.2222222222222222
+            Awe Recall: 0.005284015852047556
+            Awe F1: 0.01032258064516129
+
+            # Contentment: 817
+            Contentment Detected: 19
+            Contentment Precision: 0.3157894736842105
+            Contentment Recall: 0.007317073170731708
+            Contentment F1: 0.01430274135876043
+
+            # Excitement: 977
+            Excitement Detected: 8
+            Excitement Precision: 0.75
+            Excitement Recall: 0.006122448979591836
+            Excitement F1: 0.012145748987854251
+
+            # Anger: 518
+            Anger Detected: 2783
+            Anger Precision: 0.21128278835788716
+            Anger Recall: 0.7241379310344828
+            Anger F1: 0.32712100139082056
+
+            # Disgust: 538
+            Disgust Detected: 273
+            Disgust Precision: 0.11721611721611722
+            Disgust Recall: 0.05776173285198556
+            Disgust F1: 0.0773881499395405
+
+            # Fear: 693
+            Fear Detected: 899
+            Fear Precision: 0.38264738598442716
+            Fear Recall: 0.3976878612716763
+            Fear F1: 0.3900226757369615
+
+            # Sadness: 613
+            Sadness Detected: 12
+            Sadness Precision: 0.6666666666666666
+            Sadness Recall: 0.012965964343598054
+            Sadness F1: 0.025437201907790138
+
+            # Total: 5905
+            Overall Precision: 0.3808713506711548
+            Overall Recall: 0.2417052582580656
+            Overall F1: 0.16946765123060026
+
+Scores:
+{0: {'TP': 1124, 'FP': 1825, 'TN': 3086, 'FN': 432, 'precision': 0.3811461512377077, 'recall': 0.7223650385604113, 'F1': 0.49900110987791335}, 1: {'TP': 4, 'FP': 14, 'TN': 5136, 'FN': 753, 'precision': 0.2222222222222222, 'recall': 0.005284015852047556, 'F1': 0.01032258064516129}, 2: {'TP': 6, 'FP': 13, 'TN': 5075, 'FN': 814, 'precision': 0.3157894736842105, 'recall': 0.007317073170731708, 'F1': 0.01430274135876043}, 3: {'TP': 6, 'FP': 2, 'TN': 4926, 'FN': 974, 'precision': 0.75, 'recall': 0.006122448979591836, 'F1': 0.012145748987854251}, 4: {'TP': 588, 'FP': 2195, 'TN': 3192, 'FN': 224, 'precision': 0.21128278835788716, 'recall': 0.7241379310344828, 'F1': 0.32712100139082056}, 5: {'TP': 32, 'FP': 241, 'TN': 5126, 'FN': 522, 'precision': 0.11721611721611722, 'recall': 0.05776173285198556, 'F1': 0.0773881499395405}, 6: {'TP': 344, 'FP': 555, 'TN': 4657, 'FN': 521, 'precision': 0.38264738598442716, 'recall': 0.3976878612716763, 'F1': 0.3900226757369615}, 7: {'TP': 8, 'FP': 4, 'TN': 5288, 'FN': 609, 'precision': 0.6666666666666666, 'recall': 0.012965964343598054, 'F1': 0.025437201907790138}}
+
+Process finished with exit code 0

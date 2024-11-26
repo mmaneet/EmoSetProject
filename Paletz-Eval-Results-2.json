@@ -1,0 +1,63 @@
+{
+    "macro_precision": 0.117109634551495,
+    "macro_recall": 0.1531084656084656,
+    "macro_f1": 0.07987903225806452,
+    "per_class_metrics": {
+        "class_0": {
+            "title": "amusement",
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 35
+        },
+        "class_1": {
+            "title": "awe",
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 22
+        },
+        "class_2": {
+            "title": "contentment",
+            "precision": 0.1511627906976744,
+            "recall": 0.9285714285714286,
+            "f1": 0.26,
+            "support": 28
+        },
+        "class_3": {
+            "title": "excitement",
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 32
+        },
+        "class_4": {
+            "title": "anger",
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 12
+        },
+        "class_5": {
+            "title": "disgust",
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 17
+        },
+        "class_6": {
+            "title": "fear",
+            "precision": 0.5,
+            "recall": 0.07407407407407407,
+            "f1": 0.12903225806451613,
+            "support": 27
+        },
+        "class_7": {
+            "title": "sadness",
+            "precision": 0.2857142857142857,
+            "recall": 0.2222222222222222,
+            "f1": 0.25,
+            "support": 27
+        }
+    }
+}

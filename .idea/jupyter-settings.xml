@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JupyterPersistentConnectionParameters">
+    <option name="moduleParameters">
+      <map>
+        <entry key="$PROJECT_DIR$/.idea/EmoSetProject.iml">
+          <value>
+            <JupyterConnectionParameters>
+              <option name="managed" value="true" />
+              <option name="sdkName" value="" />
+              <option name="environmentVariables">
+                <map>
+                  <entry name="OPENAI_API_KEY" value="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" />
+                </map>
+              </option>
+            </JupyterConnectionParameters>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

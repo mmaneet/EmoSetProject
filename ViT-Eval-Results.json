@@ -1,0 +1,68 @@
+{
+    "eval_loss": 0.7744832038879395,
+    "eval_model_preparation_time": 0.008,
+    "eval_macro_precision": 0.7380056591069254,
+    "eval_macro_recall": 0.7313240002515855,
+    "eval_macro_f1": 0.7342606603863046,
+    "eval_per_class_metrics": {
+        "class_0": {
+            "title": "amusement",
+            "precision": 0.6729435084241824,
+            "recall": 0.6830985915492958,
+            "f1": 0.6779830254618073,
+            "support": 994
+        },
+        "class_1": {
+            "title": "awe",
+            "precision": 0.7986486486486486,
+            "recall": 0.7827814569536424,
+            "f1": 0.7906354515050167,
+            "support": 755
+        },
+        "class_2": {
+            "title": "contentment",
+            "precision": 0.5871345029239766,
+            "recall": 0.6144430844553244,
+            "f1": 0.6004784688995215,
+            "support": 817
+        },
+        "class_3": {
+            "title": "excitement",
+            "precision": 0.7611650485436893,
+            "recall": 0.8024564994882293,
+            "f1": 0.7812655705032386,
+            "support": 977
+        },
+        "class_4": {
+            "title": "anger",
+            "precision": 0.7926829268292683,
+            "recall": 0.752895752895753,
+            "f1": 0.7722772277227723,
+            "support": 518
+        },
+        "class_5": {
+            "title": "disgust",
+            "precision": 0.8506616257088847,
+            "recall": 0.8364312267657993,
+            "f1": 0.8434864104967198,
+            "support": 538
+        },
+        "class_6": {
+            "title": "fear",
+            "precision": 0.7698412698412699,
+            "recall": 0.6998556998556998,
+            "f1": 0.7331821617535903,
+            "support": 693
+        },
+        "class_7": {
+            "title": "sadness",
+            "precision": 0.6709677419354839,
+            "recall": 0.6786296900489397,
+            "f1": 0.6747769667477697,
+            "support": 613
+        }
+    },
+    "eval_runtime": 3927.9621,
+    "eval_samples_per_second": 1.503,
+    "eval_steps_per_second": 0.094
+}
