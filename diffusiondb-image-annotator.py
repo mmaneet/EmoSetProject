@@ -6,7 +6,7 @@ import torch
 from transformers import AutoModelForImageClassification, AutoImageProcessor
 from torch.nn.functional import softmax
 
-model_checkpoint = "VIT-Final-Finetune/checkpoint-3640"
+model_checkpoint = "checkpoint-3640"
 
 idx2label = {
     "0": "amusement",
