@@ -467,7 +467,9 @@ def main():
                 messages = json.load(fp)
                 messages = [dict(id=k, text=v) for k, v in messages.items()]
             elif input_format == "csv":
-                messages = pd.read_csv(fp)
+                messages = pd.read_csv(fp, dtype=str, keep_default_na=False, na_filter=False)
+                # Guarantee no nulls (empty cells become empty strings)
+                messages[args.text_column] = messages[args.text_column].fillna("")
                 messages = [
                     dict(
                         id=message[args.id_column],
